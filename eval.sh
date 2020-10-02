@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
-# run this with ./grid_search.local.sh <mitstates, or utzap50k> <1 for a dry run, or 0 for a real run>
-# xgpe 8
 source model/misc/utils.sh
+# start of configurations ->
 topk=1
 ds_name="ut-zap50k"
 model_path=/path/to/model  # e.g. ./mitstates2_best/best.state
-data_path=/path/to/data    
+data_path=/path/to/data
+# <- end of configurations
 
 if [[ $ds_name = "ut-zap50k" ]]; then
     req_mem=2500
