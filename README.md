@@ -30,4 +30,4 @@ eval.sh
 ```
 
 ## Training
-Training scripts will be provided upon further requests.
+Training scripts will be provided in future updates.
