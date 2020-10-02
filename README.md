@@ -1,22 +1,31 @@
 # Relation-CZSL
 This repo contains the official implementation of paper "Relation-aware Compositional Zero-shot Learning for Attribute-Object Pair Recognition".
 
+## Requirements
+- Ubuntu 18.04
+- Python 3.6+
+- CUDA 10.2+
+- A CUDA-compatible GPU with 8GB+ memory
+
 ## Setup
 - Install [Anaconda](https://www.anaconda.com/products/individual).
-- Create environment using the configuration provided in the repo: 
+- Create environment using the configuration `pytorch.yaml` provided in the repo: 
 ```
 conda env create -n RCZL -f pytorch.yaml
 ```
-- Activate environment.
+- Activate the environment.
 ```
 conda activate RCZL
 ```
 
-## Evaluation
-The snapshots of trained models for evaluation can be downloaded here: https://drive.google.com/drive/folders/1aMN2rlf6LWujW3HVLgS_WE3z5hmcbnvD?usp=sharing
+## Data and Model Preparation
+- Follow the instructions in [TMN](https://github.com/facebookresearch/taskmodularnets#prerequisites) to prepare the data.
+- Download the snapshots of trained models [here](https://drive.google.com/drive/folders/1aMN2rlf6LWujW3HVLgS_WE3z5hmcbnvD?usp=sharing).
+- Modify [line 4-8](https://github.com/daoyuan98/Relation-CZSL/blob/35a9a7b8ff8ab99658c56b152fb3391324a00a97/eval.sh#L4-L8) in `eval.sh`.
 
-Then, run 
+## Evaluation
+Run 
 ```
-eval.sh 
+eval.sh
 ```
 to evaluate our model.
