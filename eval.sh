@@ -3,7 +3,7 @@
 # xgpe 8
 source model/misc/utils.sh
 topk=1
-ds_name=mitstates
+ds_name="ut-zap50k"
 model_path=/path/to/model  # e.g. ./mitstates2_best/best.state
 data_path=/path/to/data    
 
