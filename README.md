@@ -4,12 +4,12 @@ This repo contains the official implementation of paper "Relation-aware Composit
 ## Requirements
 - Ubuntu 18.04
 - Python 3.6+
-- CUDA 10.2+
+- CUDA 10.0
 - A CUDA-compatible GPU with 8GB+ memory
 
 ## Setup
 - Install [Anaconda](https://www.anaconda.com/products/individual).
-- Create environment using the configuration `pytorch.yaml` provided in the repo: 
+- Create an Anaconda environment using the configuration `pytorch.yaml` provided in the repo: 
 ```
 conda env create -n RCZL -f pytorch.yaml
 ```
