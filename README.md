@@ -20,12 +20,14 @@ conda activate RCZL
 
 ## Data and Model Preparation
 - Follow the instructions in [TMN](https://github.com/facebookresearch/taskmodularnets#prerequisites) to prepare the data.
-- Download the snapshots of trained models [here](https://drive.google.com/drive/folders/1aMN2rlf6LWujW3HVLgS_WE3z5hmcbnvD?usp=sharing).
-- Modify [line 4-8](https://github.com/daoyuan98/Relation-CZSL/blob/35a9a7b8ff8ab99658c56b152fb3391324a00a97/eval.sh#L4-L8) in `eval.sh`.
+- Download the weights of models [here](https://drive.google.com/drive/folders/1aMN2rlf6LWujW3HVLgS_WE3z5hmcbnvD?usp=sharing).
 
 ## Evaluation
-Run 
+Modify variables at [line 4-8](https://github.com/daoyuan98/Relation-CZSL/blob/35a9a7b8ff8ab99658c56b152fb3391324a00a97/eval.sh#L4-L8) in `eval.sh` to proper batch size, path to model and data etc.
+Then run 
 ```
 eval.sh
 ```
-to evaluate our model.
+
+## Training
+Training scripts will be provided upon further requests.
