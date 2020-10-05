@@ -3,9 +3,10 @@ This repo contains the official implementation of paper "Relation-aware Composit
 
 ## Requirements
 - Ubuntu 18.04
-- Python 3.6+
-- CUDA 10.0
-- A CUDA-compatible GPU with 8GB+ memory
+- CUDA 10.0+
+- A CUDA-compatible GPU with 8GB+ VRAM
+- Anaconda/Miniconda
+- 20GB HDD space
 
 ## Setup
 - Install [Anaconda](https://www.anaconda.com/products/individual).
@@ -23,11 +24,11 @@ conda activate RCZL
 - Download the weights of models [here](https://drive.google.com/drive/folders/1aMN2rlf6LWujW3HVLgS_WE3z5hmcbnvD?usp=sharing).
 
 ## Evaluation
-Modify variables at [line 4-8](https://github.com/daoyuan98/Relation-CZSL/blob/35a9a7b8ff8ab99658c56b152fb3391324a00a97/eval.sh#L4-L8) in `eval.sh` to proper batch size, path to model and data etc.
+Modify variables at [line 4-8](https://github.com/daoyuan98/Relation-CZSL/blob/35a9a7b8ff8ab99658c56b152fb3391324a00a97/eval.sh#L4-L8) in `eval.sh` to a proper batch size (depending on the VRAM you have), the path to the model, and the path to the data etc.
 Then run 
 ```
-eval.sh
+bash eval.sh
 ```
 
 ## Training
-Training scripts will be provided in future updates.
+Training scripts will be provided as future updates.
