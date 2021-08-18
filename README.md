@@ -33,3 +33,18 @@ bash eval.sh
 
 ## Training
 Training scripts will be provided as future updates.
+
+## Reference
+If you find this repository helpful in your research, please cite the following paper:
+```
+@article{Xu2021RZSL,
+  author={Xu, Ziwei and Wang, Guangzhi and Wong, Yongkang and Kankanhalli, Mohan S.},
+  journal={IEEE Transactions on Multimedia}, 
+  title={Relation-aware Compositional Zero-shot Learning for Attribute-Object Pair Recognition}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TMM.2021.3104411}
+}
+```
