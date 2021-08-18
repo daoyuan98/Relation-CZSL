@@ -21,6 +21,7 @@ conda activate RCZL
 
 ## Data and Model Preparation
 - Follow the instructions in [TMN](https://github.com/facebookresearch/taskmodularnets#prerequisites) to prepare the data.
+- For faster training and evaluation, download precomputed [features](https://drive.google.com/drive/folders/1w5yf8DPO-tAOSX3yAiXylH4qoaGgx8SC?usp=sharing), and place the file under `data/[mitstates|ut-zap50k]/`. Alternatively, remove the `--pre_feat` flag from `eval.sh` if you don't want to use the these features.
 - Download the weights of models [here](https://drive.google.com/drive/folders/1aMN2rlf6LWujW3HVLgS_WE3z5hmcbnvD?usp=sharing).
 
 ## Evaluation
