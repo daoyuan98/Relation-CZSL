@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 source model/misc/utils.sh
-data_path="/home/e/e0517241/anasyn/AnaSyn/data"
+data_path="/path/to/data"
 lca=10.0
 ica=10.0
 ta=20.0
