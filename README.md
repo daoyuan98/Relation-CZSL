@@ -32,7 +32,12 @@ bash eval.sh
 ```
 
 ## Training
-Training scripts will be provided as future updates.
+to train Utzap50k, change the datapath in line3 in train_[utzap50k|mitstates].sh to the path you stored data, then run
+```
+bash train_utzap50k.sh
+bash train_mitstates.sh
+```
+to start the training.
 
 ## Reference
 If you find this repository helpful in your research, please cite the following paper:
