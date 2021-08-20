@@ -32,7 +32,7 @@ bash eval.sh
 ```
 
 ## Training
-to train Utzap50k, change the datapath in line3 in train_[utzap50k|mitstates].sh to the path you stored data, then run
+Change the datapath in line3 in train_[utzap50k|mitstates].sh to the path you stored data, then run
 ```
 bash train_utzap50k.sh
 bash train_mitstates.sh
